@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B4279171E44154D799227AF /* Pods_headRefreshAni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045F0926F42F6CD0C32C8351 /* Pods_headRefreshAni.framework */; };
+		F52DDFBF1D37200100EE687C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F52DDFBE1D37200100EE687C /* main.m */; };
+		F52DDFC21D37200100EE687C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F52DDFC11D37200100EE687C /* AppDelegate.m */; };
+		F52DDFC51D37200100EE687C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52DDFC41D37200100EE687C /* ViewController.m */; };
+		F52DDFC81D37200100EE687C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52DDFC61D37200100EE687C /* Main.storyboard */; };
+		F52DDFCA1D37200100EE687C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52DDFC91D37200100EE687C /* Assets.xcassets */; };
+		F52DDFCD1D37200100EE687C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52DDFCB1D37200100EE687C /* LaunchScreen.storyboard */; };
+		F52DDFD81D37200100EE687C /* headRefreshAniTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F52DDFD71D37200100EE687C /* headRefreshAniTests.m */; };
+		F52DDFE31D37200100EE687C /* headRefreshAniUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F52DDFE21D37200100EE687C /* headRefreshAniUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F52DDFD41D37200100EE687C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52DDFB21D37200100EE687C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52DDFB91D37200100EE687C;
+			remoteInfo = headRefreshAni;
+		};
+		F52DDFDF1D37200100EE687C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52DDFB21D37200100EE687C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52DDFB91D37200100EE687C;
+			remoteInfo = headRefreshAni;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045F0926F42F6CD0C32C8351 /* Pods_headRefreshAni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_headRefreshAni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E51E0E3A3EA631083309D31 /* Pods-headRefreshAni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-headRefreshAni.release.xcconfig"; path = "Pods/Target Support Files/Pods-headRefreshAni/Pods-headRefreshAni.release.xcconfig"; sourceTree = "<group>"; };
+		F52DDFBA1D37200100EE687C /* headRefreshAni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = headRefreshAni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52DDFBE1D37200100EE687C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F52DDFC01D37200100EE687C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F52DDFC11D37200100EE687C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F52DDFC31D37200100EE687C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F52DDFC41D37200100EE687C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F52DDFC71D37200100EE687C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F52DDFC91D37200100EE687C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F52DDFCC1D37200100EE687C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F52DDFCE1D37200100EE687C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52DDFD31D37200100EE687C /* headRefreshAniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = headRefreshAniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52DDFD71D37200100EE687C /* headRefreshAniTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = headRefreshAniTests.m; sourceTree = "<group>"; };
+		F52DDFD91D37200100EE687C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52DDFDE1D37200100EE687C /* headRefreshAniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = headRefreshAniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52DDFE21D37200100EE687C /* headRefreshAniUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = headRefreshAniUITests.m; sourceTree = "<group>"; };
+		F52DDFE41D37200100EE687C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8D487A4A3CD1EA1628B1A5 /* Pods-headRefreshAni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-headRefreshAni.debug.xcconfig"; path = "Pods/Target Support Files/Pods-headRefreshAni/Pods-headRefreshAni.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F52DDFB71D37200100EE687C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4279171E44154D799227AF /* Pods_headRefreshAni.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52DDFD01D37200100EE687C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52DDFDB1D37200100EE687C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		087ECC7A6B77140A0F19FC5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				045F0926F42F6CD0C32C8351 /* Pods_headRefreshAni.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		497E771230B376F0CA1DEC08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC8D487A4A3CD1EA1628B1A5 /* Pods-headRefreshAni.debug.xcconfig */,
+				8E51E0E3A3EA631083309D31 /* Pods-headRefreshAni.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F52DDFB11D37200100EE687C = {
+			isa = PBXGroup;
+			children = (
+				F52DDFBC1D37200100EE687C /* headRefreshAni */,
+				F52DDFD61D37200100EE687C /* headRefreshAniTests */,
+				F52DDFE11D37200100EE687C /* headRefreshAniUITests */,
+				F52DDFBB1D37200100EE687C /* Products */,
+				497E771230B376F0CA1DEC08 /* Pods */,
+				087ECC7A6B77140A0F19FC5F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F52DDFBB1D37200100EE687C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52DDFBA1D37200100EE687C /* headRefreshAni.app */,
+				F52DDFD31D37200100EE687C /* headRefreshAniTests.xctest */,
+				F52DDFDE1D37200100EE687C /* headRefreshAniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52DDFBC1D37200100EE687C /* headRefreshAni */ = {
+			isa = PBXGroup;
+			children = (
+				F52DDFC01D37200100EE687C /* AppDelegate.h */,
+				F52DDFC11D37200100EE687C /* AppDelegate.m */,
+				F52DDFC31D37200100EE687C /* ViewController.h */,
+				F52DDFC41D37200100EE687C /* ViewController.m */,
+				F52DDFC61D37200100EE687C /* Main.storyboard */,
+				F52DDFC91D37200100EE687C /* Assets.xcassets */,
+				F52DDFCB1D37200100EE687C /* LaunchScreen.storyboard */,
+				F52DDFCE1D37200100EE687C /* Info.plist */,
+				F52DDFBD1D37200100EE687C /* Supporting Files */,
+			);
+			path = headRefreshAni;
+			sourceTree = "<group>";
+		};
+		F52DDFBD1D37200100EE687C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F52DDFBE1D37200100EE687C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F52DDFD61D37200100EE687C /* headRefreshAniTests */ = {
+			isa = PBXGroup;
+			children = (
+				F52DDFD71D37200100EE687C /* headRefreshAniTests.m */,
+				F52DDFD91D37200100EE687C /* Info.plist */,
+			);
+			path = headRefreshAniTests;
+			sourceTree = "<group>";
+		};
+		F52DDFE11D37200100EE687C /* headRefreshAniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F52DDFE21D37200100EE687C /* headRefreshAniUITests.m */,
+				F52DDFE41D37200100EE687C /* Info.plist */,
+			);
+			path = headRefreshAniUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F52DDFB91D37200100EE687C /* headRefreshAni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52DDFE71D37200100EE687C /* Build configuration list for PBXNativeTarget "headRefreshAni" */;
+			buildPhases = (
+				42F989B72C9A312F3EFF582B /* 📦 Check Pods Manifest.lock */,
+				F52DDFB61D37200100EE687C /* Sources */,
+				F52DDFB71D37200100EE687C /* Frameworks */,
+				F52DDFB81D37200100EE687C /* Resources */,
+				1135339BD562782591F3584F /* 📦 Embed Pods Frameworks */,
+				9F54C7DEECF7B3D766F361FF /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = headRefreshAni;
+			productName = headRefreshAni;
+			productReference = F52DDFBA1D37200100EE687C /* headRefreshAni.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F52DDFD21D37200100EE687C /* headRefreshAniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52DDFEA1D37200100EE687C /* Build configuration list for PBXNativeTarget "headRefreshAniTests" */;
+			buildPhases = (
+				F52DDFCF1D37200100EE687C /* Sources */,
+				F52DDFD01D37200100EE687C /* Frameworks */,
+				F52DDFD11D37200100EE687C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52DDFD51D37200100EE687C /* PBXTargetDependency */,
+			);
+			name = headRefreshAniTests;
+			productName = headRefreshAniTests;
+			productReference = F52DDFD31D37200100EE687C /* headRefreshAniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F52DDFDD1D37200100EE687C /* headRefreshAniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52DDFED1D37200100EE687C /* Build configuration list for PBXNativeTarget "headRefreshAniUITests" */;
+			buildPhases = (
+				F52DDFDA1D37200100EE687C /* Sources */,
+				F52DDFDB1D37200100EE687C /* Frameworks */,
+				F52DDFDC1D37200100EE687C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52DDFE01D37200100EE687C /* PBXTargetDependency */,
+			);
+			name = headRefreshAniUITests;
+			productName = headRefreshAniUITests;
+			productReference = F52DDFDE1D37200100EE687C /* headRefreshAniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F52DDFB21D37200100EE687C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hwm;
+				TargetAttributes = {
+					F52DDFB91D37200100EE687C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = R494QZ4GU8;
+					};
+					F52DDFD21D37200100EE687C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = R494QZ4GU8;
+						TestTargetID = F52DDFB91D37200100EE687C;
+					};
+					F52DDFDD1D37200100EE687C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = R494QZ4GU8;
+						TestTargetID = F52DDFB91D37200100EE687C;
+					};
+				};
+			};
+			buildConfigurationList = F52DDFB51D37200100EE687C /* Build configuration list for PBXProject "headRefreshAni" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F52DDFB11D37200100EE687C;
+			productRefGroup = F52DDFBB1D37200100EE687C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F52DDFB91D37200100EE687C /* headRefreshAni */,
+				F52DDFD21D37200100EE687C /* headRefreshAniTests */,
+				F52DDFDD1D37200100EE687C /* headRefreshAniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F52DDFB81D37200100EE687C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52DDFCD1D37200100EE687C /* LaunchScreen.storyboard in Resources */,
+				F52DDFCA1D37200100EE687C /* Assets.xcassets in Resources */,
+				F52DDFC81D37200100EE687C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52DDFD11D37200100EE687C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52DDFDC1D37200100EE687C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1135339BD562782591F3584F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-headRefreshAni/Pods-headRefreshAni-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42F989B72C9A312F3EFF582B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F54C7DEECF7B3D766F361FF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-headRefreshAni/Pods-headRefreshAni-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F52DDFB61D37200100EE687C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52DDFC51D37200100EE687C /* ViewController.m in Sources */,
+				F52DDFC21D37200100EE687C /* AppDelegate.m in Sources */,
+				F52DDFBF1D37200100EE687C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52DDFCF1D37200100EE687C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52DDFD81D37200100EE687C /* headRefreshAniTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52DDFDA1D37200100EE687C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52DDFE31D37200100EE687C /* headRefreshAniUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F52DDFD51D37200100EE687C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52DDFB91D37200100EE687C /* headRefreshAni */;
+			targetProxy = F52DDFD41D37200100EE687C /* PBXContainerItemProxy */;
+		};
+		F52DDFE01D37200100EE687C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52DDFB91D37200100EE687C /* headRefreshAni */;
+			targetProxy = F52DDFDF1D37200100EE687C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F52DDFC61D37200100EE687C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52DDFC71D37200100EE687C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F52DDFCB1D37200100EE687C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52DDFCC1D37200100EE687C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F52DDFE51D37200100EE687C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F52DDFE61D37200100EE687C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F52DDFE81D37200100EE687C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC8D487A4A3CD1EA1628B1A5 /* Pods-headRefreshAni.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = headRefreshAni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfd.headRefreshAni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F52DDFE91D37200100EE687C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E51E0E3A3EA631083309D31 /* Pods-headRefreshAni.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = headRefreshAni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfd.headRefreshAni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F52DDFEB1D37200100EE687C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = headRefreshAniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfd.headRefreshAniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/headRefreshAni.app/headRefreshAni";
+			};
+			name = Debug;
+		};
+		F52DDFEC1D37200100EE687C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = headRefreshAniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfd.headRefreshAniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/headRefreshAni.app/headRefreshAni";
+			};
+			name = Release;
+		};
+		F52DDFEE1D37200100EE687C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = headRefreshAniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfd.headRefreshAniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = headRefreshAni;
+			};
+			name = Debug;
+		};
+		F52DDFEF1D37200100EE687C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = headRefreshAniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfd.headRefreshAniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = headRefreshAni;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F52DDFB51D37200100EE687C /* Build configuration list for PBXProject "headRefreshAni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52DDFE51D37200100EE687C /* Debug */,
+				F52DDFE61D37200100EE687C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52DDFE71D37200100EE687C /* Build configuration list for PBXNativeTarget "headRefreshAni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52DDFE81D37200100EE687C /* Debug */,
+				F52DDFE91D37200100EE687C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52DDFEA1D37200100EE687C /* Build configuration list for PBXNativeTarget "headRefreshAniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52DDFEB1D37200100EE687C /* Debug */,
+				F52DDFEC1D37200100EE687C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52DDFED1D37200100EE687C /* Build configuration list for PBXNativeTarget "headRefreshAniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52DDFEE1D37200100EE687C /* Debug */,
+				F52DDFEF1D37200100EE687C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F52DDFB21D37200100EE687C /* Project object */;
+}
